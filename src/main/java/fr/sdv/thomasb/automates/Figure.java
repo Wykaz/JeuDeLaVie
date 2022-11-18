@@ -67,7 +67,6 @@ public enum Figure {
     DIAGONAL("Une diagonale", 3, new boolean[][]{
             {false, false, false, false, false, false, false, true, true},
             {false, false, false, false, false, false, false, true, false},
-            {false, false, false, false, false, false, false, true, false},
             {false, false, false, false, true, true, false, true, false},
             {false, false, false, true, false, false, true, false, false},
             {false, false, false, true, true, false, false, false, false},

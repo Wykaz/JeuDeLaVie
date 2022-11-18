@@ -89,7 +89,7 @@ public class JeuDeLaVie {
      * Crée une nouvelle grille de jeu de la vie
      */
     public void nextGeneration() {
-        Cell[][] newGrid = initGrid(grid.length, grid[0].length);
+        Cell[][] newGrid = initGrid(grid[0].length, grid.length);
 
         for (int y = 0; y < grid.length; y++) { // lignes
             for (int x = 0; x < grid[y].length; x++) { // colonnes
